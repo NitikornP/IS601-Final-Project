@@ -13,8 +13,7 @@ class QuestionsTableSeeder extends Seeder
     public function run()
     {
         $users = App\User::all();
-
-            $users->each(function ($user) {
+        $users->each(function ($user) {
                 $question = factory(\App\Question::class)->make();
                 $question->user()->associate($user);
                 $question->save();
