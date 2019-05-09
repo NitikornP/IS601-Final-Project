@@ -9,7 +9,6 @@
                     <div class="card-body">
                         @if($edit === FALSE)
                             {!! Form::model($answer, ['route' => ['answers.store', $question], 'method' => 'post']) !!}
-
                         @else()
                             {!! Form::model($answer, ['route' => ['answers.update', $question, $answer], 'method' => 'patch']) !!}
                         @endif
