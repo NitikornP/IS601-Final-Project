@@ -2,32 +2,21 @@
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-left">
-            <div class="container align-content-xl-between">
-                <div class="float-left">
-                    <form role="form" id="search-form" class="search-form" method="get" action="{{ url('/home/search') }}">
-                        <div class="row float-lg-left">
-                            <div class="form-group">
-                                <input name="name" type="text" class="form-control" id="name">
-                            </div>
-                            &nbsp
-                            <div>
-                                <button class="btn btn-outline-success" type="submit" id="search-form">Search</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                    <div>
-                        <a class="btn btn-outline-primary float-right" href="{{ route('questions.create') }}">
-                            Create a Question
-                        </a>
-                    </div>
-            </div>
 
-                <div class="col-md-13">
-                <div class="card" style="background-color: skyblue">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <a class="btn btn-dark float-left" href="{{ url('/home') }}">
+                    <b>Go Back</b>
+                </a>
+            </div>
+            &nbsp
+            <div class="col-md-12">
+
+                <div class="card">
                     <div class="card-header">
+
                         <div class="card-body">
+
                             <div class="card-deck">
                                 @forelse($questions as $question)
                                     <div class="col-sm-6 d-flex align-items-stretch">
@@ -42,6 +31,7 @@
                                                     @else
                                                         Creator: {{ \App\User::find($question->user_id)->email }}
                                                     @endif
+
                                                 </small>
                                             </div>
                                             <div class="card-body">
@@ -58,19 +48,16 @@
                                         </div>
                                     </div>
                                 @empty
-                                    There are no questions to view, you can  create a question.
+                                    There are no questions to view, please type in your question before searching.
                                 @endforelse
+
                             </div>
 
-                        </div>
-                        <div class="card-footer">
-                            <div class="float-right">
-                                {{ $questions->links() }}
-                            </div>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 @endsection

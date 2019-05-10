@@ -36,7 +36,7 @@ class HomeController extends Controller
         return view('home')->with('questions',$questionTest);
     }
 
-    public function paginate($items,$perPage=12, $page=null, $baseUrl="/home", $options=[]){
+    public function paginate($items,$perPage=8, $page=null, $baseUrl="/home", $options=[]){
 
         $page=$page ?: (Paginator::resolveCurrentPage() ?: 1);
 
@@ -50,4 +50,11 @@ class HomeController extends Controller
         }
         return $lap;
     }
+
+    public function searchQuestions(Request $request)
+    {
+        $questions = Question::all()->where('body', $request->name);
+        return view('search')->with('questions', $questions);
+    }
+
 }

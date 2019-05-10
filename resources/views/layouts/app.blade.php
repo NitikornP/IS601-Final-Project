@@ -23,16 +23,16 @@
 
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+    <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="background-color: black">
         <div class="container">
 
 
             @guest
-                <a class="navbar-brand"  href="{{ url('/') }}">
+                <a class="navbar-brand" style="color: white" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
             @else
-                <a class="navbar-brand" href="{{ route('home') }}">
+                <a class="navbar-brand" style="color: white" href="{{ route('home') }}">
                     Home
                 </a>
             @endguest
@@ -53,11 +53,11 @@
                 <ul class="navbar-nav ml-auto" >
                     <!-- Authentication Links -->
                     @guest
-                        <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
-                        <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
+                        <li><a class="nav-link" style="color: white" href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                        <li><a class="nav-link" style="color: white" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                     @else
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color: white">
                                 My Account <span class="caret"></span>
                             </a>
 
