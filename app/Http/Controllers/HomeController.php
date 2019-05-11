@@ -57,4 +57,12 @@ class HomeController extends Controller
         return view('search')->with('questions', $questions);
     }
 
+
+    public function findMyQuestions()
+    {
+        $user = Auth::user();
+        $questions = $user->questions()->orderByDesc('updated_at')->paginate(6);
+        return view('home')->with('questions', $questions);
+    }
+
 }
