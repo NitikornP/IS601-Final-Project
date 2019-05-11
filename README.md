@@ -19,8 +19,8 @@ This feature allows users to edit only questions or answers they have created.
 #Epic#2
 This feature allows users to view all questions, find their own questions, and search for particular ones.
 #User Story  
-1. As a user, I want to see all the questions with the name of the creators so that I can choose questions to view.
-2. As a user, I want to see all the answers with the name of the creators so that I can choose answers to view.
+1. As a user, I want to see all the questions with the name of the creators so that I know who posted them.
+2. As a user, I want to see all the answers with the name of the creators so that I know who posted them.
 3. As a user, I want to search for a particular question so that I can view the question I'm interested in and give my answer as I want.
 4. As a user, I want to find only the questions I've created so that I can distinguish them from others.
 5. As a user, I want to view the most recently created question first so that I can see which question is the most relevant.
