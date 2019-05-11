@@ -10,6 +10,7 @@ Link to the project: https://nitikornmini3.herokuapp.com/
  
 #Epic#1
 This feature allows users to edit only questions or answers they have created.
+
 #User Story
 1. As a user, I want to be the only person who can edit my question so that others won't be able to edit it.
 2. As a user, I want to be the only person who can delete my question so that others won't be able to delete it.
@@ -18,6 +19,7 @@ This feature allows users to edit only questions or answers they have created.
 
 #Epic#2
 This feature allows users to view all questions, find their own questions, and search for particular ones.
+
 #User Story  
 1. As a user, I want to see all the questions with the name of the creators so that I know who posted them.
 2. As a user, I want to see all the answers with the name of the creators so that I know who posted them.
