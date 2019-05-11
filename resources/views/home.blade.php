@@ -11,20 +11,20 @@
                         </div>
                         &nbsp
                         <div>
-                            <button class="btn btn-outline-success" type="submit" style="margin:5px" id="search-form">Search</button>
+                            <button class="btn btn-outline-success" type="submit" id="search-form">Search</button>
                         </div>
                     </form>
                 </div>
                 <div>
-                    <a class="btn btn-outline-info float-right" style="margin:5px" href="{{ route('questions.create') }}">
+                    <a class="btn btn-outline-primary float-right" href="{{ route('questions.create') }}">
                         Create a Question
                     </a>
                 </div>
-                <div>
-                    <a class="btn btn-outline-primary float-right" style="margin:5px" href="{{ url('/home/find') }}">
-                        My Questions
-                    </a>
-                </div>
+{{--                <div>--}}
+{{--                    <a class="btn btn-outline-primary infofloat-right" style="margin:5px" href="{{ url('/home/find') }}">--}}
+{{--                        My Questions--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
 
             <div class="col-md-12"><br>
@@ -46,7 +46,7 @@
                                                     @else
                                                         Posted by: {{ \App\User::find($question->user_id)->email }}
                                                     @endif
-                                                        <a class="btn btn-primary float-right"
+                                                        <a class="btn btn-outline-info float-right"
                                                            href="{{ route('questions.show', ['id' => $question->id]) }}">
                                                             View
                                                         </a>

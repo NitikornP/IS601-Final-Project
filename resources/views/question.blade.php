@@ -42,25 +42,26 @@
                                 <div class="card-footer">
                                     <h7>
                                     @if (\App\Profile::find ($question->user_id))
-                                        Posted by: {{ \App\Profile::find ($answer->user_id)->fname }}
-                                    @else
-                                        Posted by: {{ \App\User::find($answer->user_id)->email }}
+                                    {{--         Posted by: {{ \App\Profile::find ($answer->user_id)->fname }}
+                                    @else--}}
+                                    Posted by: {{ \App\User::find($answer->user_id)->email }}
                                     @endif
                                     </h7>
-                                    <a class="btn btn-primary float-right"
-                                       href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
-                                        View
-                                    </a>
+                                           <a class="btn btn-primary float-right"
+                                                  href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
+                                                  View
+                                           </a>
 
                                 </div>
-                            </div>
-                            <br>
+                            </div><br>
                         @empty
-                            <div class="card">
-                                <div class="card-body"> No Answers</div>
-                            </div>
+                           <div class="card">
+                              <div class="card-body"> No Answers</div>
+                           </div>
                         @endforelse
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 @endsection
