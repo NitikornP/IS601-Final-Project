@@ -41,9 +41,9 @@
                                 <div class="card-body">{{$answer->body}}</div>
                                 <div class="card-footer">
                                     <h7>
-                                    @if (\App\Profile::find ($question->user_id))
-                                    {{--         Posted by: {{ \App\Profile::find ($answer->user_id)->fname }}
-                                    @else--}}
+                                    @if (\App\Profile::find ($answer->user_id))
+                                             Posted by: {{ \App\Profile::find($answer->user_id)->fname }}
+                                    @else
                                     Posted by: {{ \App\User::find($answer->user_id)->email }}
                                     @endif
                                     </h7>
