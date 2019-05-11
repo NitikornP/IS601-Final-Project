@@ -27,9 +27,9 @@
                                                     Answers: {{ $question->answers()->count() }}
                                                     <br>
                                                     @if (\App\Profile::find ($question->user_id))
-                                                        Creator: {{ \App\Profile::find ($question->user_id)->fname }}
+                                                        Posted by: {{ \App\Profile::find ($question->user_id)->fname }}
                                                     @else
-                                                        Creator: {{ \App\User::find($question->user_id)->email }}
+                                                        Posted by: {{ \App\User::find($question->user_id)->email }}
                                                     @endif
 
                                                 </small>
