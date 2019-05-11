@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c23eba3b-8829-4302-8c95-6b1b519b5c52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/question.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/question.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +61,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="e#1855#1892#0#HTML" expanded="true" />
-              </folding>
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/question.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+            <state relative-caret-position="262">
+              <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -79,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
+            <state relative-caret-position="1590">
               <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
             </state>
           </provider>
@@ -88,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
+            <state relative-caret-position="459">
               <caret line="72" column="108" selection-start-line="72" selection-start-column="108" selection-end-line="72" selection-end-column="108" />
             </state>
           </provider>
@@ -435,7 +434,8 @@
       <workItem from="1557551612141" duration="446000" />
       <workItem from="1557584015803" duration="952000" />
       <workItem from="1557585227530" duration="1046000" />
-      <workItem from="1557586502800" duration="1302000" />
+      <workItem from="1557586502800" duration="1829000" />
+      <workItem from="1557588765680" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Laravel setup">
       <created>1556829897897</created>
@@ -619,22 +619,36 @@
       <option name="project" value="LOCAL" />
       <updated>1557587805915</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Edited README file and fixed the code">
+      <created>1557587906164</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557587906164</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed the code">
+      <created>1557587960011</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1557587960011</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107826000" />
+    <option name="totallyTimeSpent" value="108525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="889" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23851688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2412839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292517" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25986394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25986394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -677,7 +691,8 @@
     <MESSAGE value="Made changes to display most recent created question first" />
     <MESSAGE value="Fixed code and changed the layout of some pages" />
     <MESSAGE value="Edited README file and fixed the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited README file and fixed the code" />
+    <MESSAGE value="Fixed the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://0201b3b4-da87-4f46-b607-719ce2f9677d/schema/main/table/migrations">
@@ -986,10 +1001,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="123" lean-forward="true" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="108" selection-start-line="72" selection-start-column="108" selection-end-line="72" selection-end-column="108" />
+        <state relative-caret-position="1590">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1003,37 +1035,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="123" lean-forward="true" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#1855#1892#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        <state relative-caret-position="459">
+          <caret line="72" column="108" selection-start-line="72" selection-start-column="108" selection-end-line="72" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/question.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+        <state relative-caret-position="262">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
         </state>
       </provider>
     </entry>
