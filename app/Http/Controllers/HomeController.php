@@ -31,7 +31,8 @@ class HomeController extends Controller
     {
         $user = Auth::user();
         $questionTest=Question::all();
-        $questions = $user->questions()->paginate(6);
+        $sorted=$questionTest->sortByDesc('created_at');
+        $questionTest=$sorted->values()->all();
         $questionTest=$this->paginate($questionTest);
         return view('home')->with('questions',$questionTest);
     }
